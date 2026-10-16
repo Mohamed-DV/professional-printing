@@ -1,0 +1,17 @@
+{
+  "name": "professional-printing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Professional Printing — 1000 cartes de visite recto verso + design gratuit à 290 MAD. Landing page, commandes et dashboard admin sur Netlify.",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && netlify dev"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
