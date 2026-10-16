@@ -116,7 +116,7 @@ The admin loads the newest 150 orders at a time ("تحميل طلبات أقدم
 ```bash
 npm install
 npm i -g netlify-cli
-echo "ADMIN_PASSWORD=change-me" > .env
+cp .env.example .env   # then set ADMIN_PASSWORD in .env (local only)
 npm run dev          # http://localhost:8888  (admin: /admin/)
 ```
 
